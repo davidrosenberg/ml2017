@@ -2,39 +2,58 @@
     <section class="module" id="{{lectureSlug this}}">
         <h1>{{Title}}</h1>
 
-        {{#each Events}}
-            <section>
-                <div class="label">
-                    <h1>
-                        {{Label}}
-                        <span class="date">{{shortDate @key}}</span>
-                        {{#if Video}}
-                            <a class="video" href="{{Video}}">Video</a>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Slides</th>
+                    <th>Notes</th>
+                    <th>References</th>
+                </tr>
+            </thead>
+            {{#each Events}}
+                <tr>
+                    <th class="label">
+                        <h1>
+                            {{Label}}
+                            <span class="date">{{shortDate @key}}</span>
+                            {{#if Video}}
+                                <a class="video" href="{{Video}}">Video</a>
+                            {{/if}}
+                        </h1>
+                    </td>
+                    <td class="slides">
+                        {{#if Slides}}
+                            <ul>{{#each Slides}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
                         {{/if}}
-                    </h1>
-                </div>
-                <div class="slides icon">
-                    <ul>
-                        {{#each Slides}}
-                            <li>{{maybeLink this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-                <div class="notes icon">
-                    <ul>
-                        {{#each Notes}}
-                            <li>{{maybeLink this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-                <div class="references icon">
-                    <ul>
-                        {{#each References}}
-                            <li>{{maybeLink this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-            </section>
-        {{/each}}
+                    </td>
+                    <td class="notes">
+                        {{#if Notes}}
+                            <ul>{{#each Notes}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
+                        {{/if}}
+                    </td>
+                    <td class="references">
+                        {{#if References}}
+                            <ul>{{#each References}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
+                        {{/if}}
+                    </td>
+                </tr>
+            {{/each}}
+        </table>
     </section>
 {{/each}}
