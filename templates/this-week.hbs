@@ -36,7 +36,7 @@
                 </ul>
             </section>
         {{/with}}
-        {{#with assignment }}
+        {{#with assignment}}
             <section class="assignment">
                 <h1><a href="#{{assignmentSlug this}}">{{Label}}</a></h1>
                 <p>{{{Description}}}</p>
@@ -44,5 +44,9 @@
                 {{> _assignment-details }}
             </section>
         {{/with}}
+
+        {{#if Announcement}}
+        <p>{{Announcement}}</p>
+        {{/if}}
     </div>
 </section>
