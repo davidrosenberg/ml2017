@@ -7,9 +7,9 @@ const moment = require('moment');
 const assert = require('assert');
 const toSlug = require('slugg');
 
-const SLIDES_AND_NOTES = 'Slides and Notes';
-const REFERENCES_PRE = 'References (Pre)';
-const REFERENCES_SUPPLEMENTAL = 'References (Supplemental)';
+const SLIDES = 'Slides';
+const NOTES = 'Notes';
+const REFERENCES = 'References';
 
 const TEMPLATES_DIR = path.resolve(__dirname, '../templates');
 
@@ -20,11 +20,12 @@ module.exports = (input, output) => {
 
     const template = compileTemplate(handlebars, input);
     const documents = parseDocuments();
+
+    // Uncomment to see documents; useful while tweaking the templates
+    // console.log(require("util").inspect(documents, { depth: Infinity }));
+
     fs.writeFileSync(output, template(documents));
 };
-
-// Uncomment to see documents; useful while tweaking the templates
-// console.log(require("util").inspect(documents, { depth: Infinity }));
 
 function compileTemplate(handlebars, input) {
     return handlebars.compile(fs.readFileSync(input, { encoding: 'utf-8' }));
@@ -33,21 +34,13 @@ function compileTemplate(handlebars, input) {
 function parseDocuments() {
     const lectures = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/lectures.yml')));
 
-    // Pull Slides and Notes, References (Pre), and References (Supplemental) from the topics up to the top level:
+    // Normalize the data
     for (const lecture of lectures) {
-        Object.keys(lecture.Events).forEach(eventDate => {
-            const event = lecture.Events[eventDate];
-
-            ensureArrayExists(event, SLIDES_AND_NOTES);
-            ensureArrayExists(event, REFERENCES_PRE);
-            ensureArrayExists(event, REFERENCES_SUPPLEMENTAL);
-
-            Object.keys(event.Topics).forEach(topic => {
-                copyArrayInto(event.Topics[topic], event, SLIDES_AND_NOTES);
-                copyArrayInto(event.Topics[topic], event, REFERENCES_PRE);
-                copyArrayInto(event.Topics[topic], event, REFERENCES_SUPPLEMENTAL);
-            });
-        });
+        for (const event of Object.values(lecture.Events)) {
+            ensureArrayExists(event, SLIDES);
+            ensureArrayExists(event, NOTES);
+            ensureArrayExists(event, REFERENCES);
+        }
     }
 
     let assignmentsFrontmatter, assignments;

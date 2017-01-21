@@ -4,7 +4,7 @@
 
 ### Building locally: quickstart
 
-Be sure to have [Node.js](https://iojs.org/) 5.x+ installed.
+Be sure to have [Node.js](https://iojs.org/) 7.x+ installed.
 
 Run `npm install` in the project root. This will install some build tools we use.
 

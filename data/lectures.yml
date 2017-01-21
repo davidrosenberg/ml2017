@@ -4,32 +4,67 @@
     2017-01-24:
       Label: Lecture
       Video: "https://youtu.be/U6M0m9c9_Js"
-      Topics:
-        Course mechanics:
-          References (Supplemental):
-            - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
-          Slides and Notes:
-            - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1a.course-logistics.pdf"}
-        Statistical learning theory framework:
-          Slides and Notes:
-            - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1b.intro-slt-riskdecomp.pdf"}
-        Gradient and stochastic gradient descent:
-          References (Supplemental):
-            - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
-            - BV Preface, Ch 1
-          Slides and Notes:
-            - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1c.stoch-grad-descent.pdf"}
-    2017-01-25:
+      Slides:
+        - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1a.course-logistics.pdf"}
+        - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1b.intro-slt-riskdecomp.pdf"}
+        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1c.stoch-grad-descent.pdf"}
+      References:
+        - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
+        - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
+        - BV Preface, Ch 1
+    2016-01-28:
       Label: Lab
       Video: "https://www.youtube.com/watch?v=MEZiIfeqNNI"
-      Topics:
-        Matrix differentiation (Levent Sagun):
-          References (Supplemental):
-            - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
-            - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
-          Slides and Notes:
-            - {Levent's Differentiation Slides: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/1differentiation.pdf"}
-            - {Matrix Differentiation: "https://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
-            - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
-#          References (Supplemental):
-#            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
+      Slides:
+        - {Levent's Differentiation Slides: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/1differentiation.pdf"}
+      Notes:
+        - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/directional-derivative.pdf"}
+      References:
+        - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
+        - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
+        - {Matrix Differentiation: "https://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
+
+-
+  Title: Week 2
+  Events:
+    2017-01-31:
+      Label: Lecture
+      Video: "https://youtu.be/U6M0m9c9_Js"
+      Slides:
+        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2a.excess-risk-decomposition.pdf"}
+        - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2b.L1L2-regularization.pdf"}
+      Notes:
+        - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/completing-the-square.pdf"}
+      References:
+        - "HTF Ch. 3"
+        - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
+    2017-02-01:
+      Label: Lab
+      Slides:
+        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2.Lab.elastic-net.pdf"}
+        - {Directional Derivatives and Optima: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2.Lab.directional-derivatives.pdf"}
+      Notes:
+        - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+-
+  Title: Week 3
+  Events:
+    2016-02-07:
+      Label: Lecture
+      Slides:
+        - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3a.loss-functions.pdf"}
+        - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3b.convex-optimization.pdf"}
+        - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3c.SVM.pdf"}
+      Notes:
+        - {Warmup Exercises: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/svm-lecture-prep.pdf"}
+        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/convex-optimization.pdf"}
+        - {SVM Notes: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/svm-notes.pdf"}
+      References:
+        - {Andrew Ng's CS229 SVM Notes: "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
+        - "HTF 12.2.1 - 12.2.2"
+    2016-02-08:
+      Label: Lab
+      Slides:
+        - {Projections and SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/3hardSVM.pdf"}
+      References:
+        - "HTF 3.2.0,4.5"
+        - "HTF pp. 417-419"

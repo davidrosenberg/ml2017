@@ -1,6 +1,6 @@
 {{#each this}}
     <section class="module" id="{{lectureSlug this}}">
-    <h1>{{Title}}</h1>
+        <h1>{{Title}}</h1>
 
         {{#each Events}}
             <section>
@@ -13,21 +13,26 @@
                         {{/if}}
                     </h1>
                 </div>
-                <div class="topics">
+                <div class="slides icon">
                     <ul>
-                        {{#each Topics}}
-                            <li>{{@key}}</li>
+                        {{#each Slides}}
+                            <li>{{maybeLink this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="notes icon">
+                    <ul>
+                        {{#each Notes}}
+                            <li>{{maybeLink this}}</li>
                         {{/each}}
                     </ul>
                 </div>
                 <div class="references icon">
-                    <h1>References</h1>
-
-                    {{> _references }}
-                </div>
-                <div class="slides icon">
-                    <h1>Slides and Notes</h1>
-                    <ul>{{#each [Slides and Notes]}}<li>{{maybeLink this}}</li>{{/each}}</ul>
+                    <ul>
+                        {{#each References}}
+                            <li>{{maybeLink this}}</li>
+                        {{/each}}
+                    </ul>
                 </div>
             </section>
         {{/each}}
