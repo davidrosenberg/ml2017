@@ -2,6 +2,9 @@
 
 nav-height = 60px
 
+.phone-only-block
+  display: block
+
 body
   padding = 10px
   padding: padding
@@ -85,39 +88,32 @@ body > nav
   .topics, .references
     padding-right: 0
 
-  > section
+  > table
     display: block
+    margin-top: 0
 
     &:not(:last-child)
       margin-bottom: 20px
       border-bottom: 2px solid gray
 
-    > div
-      display: block
-      margin-bottom: 25px
-      padding-top: 0
+    thead
+      display: none
 
-      &:first-of-type
-        padding-left: 0
-        margin-bottom: 15px
+    tbody
+      td, th
+        display: block
+        margin-bottom: 25px
+        padding-top: 0
 
-        h1
-          margin-bottom: 0
-          font-size: 18px
+    // .icon
+    //   &.references, &.slides
+    //     &::before
+    //       top: 0
+    //       left: 0
 
-    .references, .slides
-      h1
-        padding-left: 20px
+    //       margin-top: -6px
 
-    .icon
-      &.references, &.slides
-        &::before
-          top: 0
-          left: 0
-
-          margin-top: -6px
-
-          font-size: 14px
+    //       font-size: 14px
 
 #assignments .homework
   strong
