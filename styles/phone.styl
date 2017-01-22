@@ -1,6 +1,7 @@
 @import "colors"
 
 nav-height = 60px
+number-of-nav-items = 7
 
 .phone-only-block
   display: block
@@ -19,7 +20,7 @@ body > nav
 
   > a
     width: auto
-    flex: 0 0 16.6666666666666%
+    flex: 0 0 (100% / number-of-nav-items)
     border-bottom: none
     border-right: 1px solid accent-hover
     touch-action: manipulation
