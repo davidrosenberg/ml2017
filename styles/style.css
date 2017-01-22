@@ -23,10 +23,10 @@ body {
 }
 a {
   text-decoration: none;
-  color: #5082e5;
+  color: #57078e;
 }
 a:hover {
-  color: #85a8ed;
+  color: #960ef3;
 }
 h1 {
   text-transform: uppercase;
@@ -59,7 +59,7 @@ p:last-child {
   opacity: 0.4;
   margin-right: 10px;
   vertical-align: middle;
-  color: #5082e5;
+  color: #57078e;
 }
 .icon.pdf::before {
   content: "\e164";
@@ -74,7 +74,7 @@ body > nav {
   z-index: 2;
   width: 60px;
   height: 100%;
-  background-color: #5082e5;
+  background-color: #57078e;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 body > nav > a {
@@ -84,7 +84,7 @@ body > nav > a {
   height: 60px;
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
-  border-bottom: 1px solid #85a8ed;
+  border-bottom: 1px solid #960ef3;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.03em;
@@ -93,7 +93,7 @@ body > nav > a {
   color: #fff;
   white-space: nowrap;
   line-height: 42px;
-  background-color: #5082e5;
+  background-color: #57078e;
   overflow: hidden;
   transition: width ease 0.2s, color ease 0.2s, background-color ease 0.2s;
 }
@@ -104,7 +104,7 @@ body > nav > a:hover {
 }
 body > nav > a.selected {
   border-bottom: none;
-  color: #5082e5;
+  color: #57078e;
   background: #fff;
 }
 body > nav > a::before {
@@ -218,7 +218,7 @@ body > section > section > h1 {
   min-width: 170px;
   vertical-align: top;
   font-size: 20px;
-  color: #5082e5;
+  color: #57078e;
   text-transform: uppercase;
   opacity: 0.6;
 }
@@ -265,7 +265,7 @@ body > section > section > h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 25px;
-  border: 2px solid #5082e5;
+  border: 2px solid #57078e;
   border-radius: 8px;
   font-size: 16px;
   background-color: #fff;
@@ -333,7 +333,7 @@ body > section > section > h1 {
   line-height: 50px;
 }
 #lectures > section tbody > tr:not(:last-of-type) {
-  border-bottom: 1px solid rgba(80,130,229,0.2);
+  border-bottom: 1px solid rgba(87,7,142,0.2);
 }
 #lectures > section tbody > tr:not(:first-of-type) td,
 #lectures > section tbody > tr:not(:first-of-type) th {
@@ -372,7 +372,7 @@ body > section > section > h1 {
   margin-top: 5px;
 }
 #lectures > section .date {
-  color: #5082e5;
+  color: #57078e;
   font-size: 0.9em;
   opacity: 0.6;
 }
@@ -446,7 +446,7 @@ body > section > section > h1 {
   margin-right: 0;
 }
 #assignments .submit a:hover {
-  color: #5082e5;
+  color: #57078e;
 }
 #assignments .submit a:hover .icon::before {
   opacity: 1;

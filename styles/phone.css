@@ -16,7 +16,7 @@ body > nav > a {
   width: auto;
   flex: 0 0 16.6666666666666%;
   border-bottom: none;
-  border-right: 1px solid #85a8ed;
+  border-right: 1px solid #960ef3;
   touch-action: manipulation;
 }
 body > nav > a:hover {
