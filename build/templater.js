@@ -59,6 +59,12 @@ function parseDocuments() {
         ++i;
     });
 
+    for (const assignment of assignments) {
+        if (!assignment.PDF && !assignment.ZIP) {
+            assignment.noFiles = true;
+        }
+    }
+
     const thisWeek = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/this-week.yml')));
 
     // Pull data from lectures and assignments into thisWeek:
