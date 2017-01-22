@@ -14,7 +14,7 @@ body > nav {
 }
 body > nav > a {
   width: auto;
-  flex: 0 0 16.6666666666666%;
+  flex: 0 0 14.285714285714286%;
   border-bottom: none;
   border-right: 1px solid #960ef3;
   touch-action: manipulation;
