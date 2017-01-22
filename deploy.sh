@@ -20,11 +20,10 @@ REPO=`git config remote.origin.url`
 TOKEN_REPO=${REPO/https:\/\/github.com/https://${GH_TOKEN}@github.com}
 SHA=`git rev-parse --verify HEAD`
 
-echo $TOKEN_REPO
-
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO out
+rm -rf out
+git clone $TOKEN_REPO out
 cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
@@ -41,7 +40,7 @@ git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if [ -z `git diff --exit-code` ]; then
+if [ -z "$(git diff --exit-code)" ]; then
     echo "No changes to the output on this push; exiting."
     exit 0
 fi
