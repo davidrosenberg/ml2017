@@ -48,6 +48,10 @@ p:first-child {
 p:last-child {
   margin-bottom: 0;
 }
+ul,
+ol {
+  margin-left: 20px;
+}
 .module {
   background: #fff;
   border-radius: 8px;
@@ -283,6 +287,7 @@ body > section > section > h1 {
 }
 #this-week ul {
   list-style-type: none;
+  margin: 0;
 }
 #this-week section {
   width: 250px;
@@ -299,9 +304,6 @@ body > section > section > h1 {
 }
 #about .module {
   margin-bottom: 30px;
-}
-#about ul {
-  margin-left: 20px;
 }
 #textbooks img {
   height: 200px;
@@ -358,6 +360,7 @@ body > section > section > h1 {
 }
 #lectures > section ul {
   list-style-type: none;
+  margin: 0;
 }
 #lectures > section li {
   line-height: normal;
@@ -462,6 +465,7 @@ body > section > section > h1 {
   display: flex;
   flex-flow: row wrap;
   list-style-type: none;
+  margin: 0;
 }
 #people .person {
   display: flex;
