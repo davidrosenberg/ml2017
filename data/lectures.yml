@@ -5,17 +5,17 @@
       Label: Lecture
 #      Video: "https://youtu.be/U6M0m9c9_Js"
       Slides:
-        - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1a.course-logistics.pdf"}
-        - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1b.intro-slt-riskdecomp.pdf"}
-        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1c.stoch-grad-descent.pdf"}
+        - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Lectures/1a.course-logistics.pdf"}
+        - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Lectures/1b.intro-slt-riskdecomp.pdf"}
+        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/1c.stoch-grad-descent.pdf"}
       References:
         - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
-    2016-01-28:
+    2017-01-25:
       Label: Lab
 #      Video: "https://www.youtube.com/watch?v=MEZiIfeqNNI"
       Slides:
       Notes:
-        - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/directional-derivative.pdf"}
+        - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
       References:
         - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
         - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
