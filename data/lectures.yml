@@ -12,7 +12,7 @@
         - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf"}
         - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf"}
       References:
-        - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
+        - {"Bottou's SGD Tricks": "http://leon.bottou.org/papers/bottou-tricks-2012"}
     2017-01-25:
       Label: Lab
 #      Video: "https://www.youtube.com/watch?v=MEZiIfeqNNI"
@@ -22,7 +22,7 @@
         - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Notes_sol.pdf"}
         - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check.pdf"}
         - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check_sol.pdf"}
-#        - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
+#        - {Directional Derivatives and Approximation (Short): "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
       References:
         - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
         - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
@@ -32,7 +32,24 @@
     2017-01-31:
       Label: Lecture
       Slides:
+        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf"}
+        - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
       Notes:
         - {PreLecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf"}
         - {PreLecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf"}
+        - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
       References:
+        - "HTF Ch. 3"
+        - {'Mairal, Bach, and Ponce on Sparse Modeling': "https://arxiv.org/pdf/1411.3230v2.pdf"}
+    2017-02-01:
+      Label: Lab
+      Slides:
+        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf"}
+        - {Directional Derivatives and Optima: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
+      Notes:
+       
+      References:
+        - {'Bach et al on Optimization with Sparsity': "https://arxiv.org/pdf/1108.0775v2.pdf"}
+
+
+
