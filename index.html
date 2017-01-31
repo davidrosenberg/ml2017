@@ -58,32 +58,30 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-1">Slides</a></h1>
+                    <h1><a href="#lecture-week-2">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/1a.course-logistics.pdf">Course Logistics</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/1b.intro-slt-riskdecomp.pdf">Statistical Learning Theory</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/1c.stoch-grad-descent.pdf">Stochastic Gradient Descent</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Slides.pdf">Gradients and Directional Derivatives</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf">Excess Risk Decomposition</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf">L1 and L2 regularization</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf">Grouping and Elastic Net</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf">Directional Derivatives and Optima</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-1">Notes</a></h1>
+                    <h1><a href="#lecture-week-2">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf">Lecture Concept Check Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf">Lecture Concept Check Solutions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Notes_sol.pdf">Gradients and Directional Derivatives</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check.pdf">Lab Concept Check Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check_sol.pdf">Lab Concept Check Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf">PreLecture Concept Check Questions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf">PreLecture Concept Check Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf">Completing the Square</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-1">References</a></h1>
+                    <h1><a href="#lecture-week-2">References</a></h1>
     
                     <ul>
-                                <li><a href="http://leon.bottou.org/papers/bottou-tricks-2012">Bottou's SGD Tricks</a></li>
-                                <li><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf">Barnes's "Matrix Differentiation" notes</a></li>
-                                <li><a href="http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf">Felippa's "Matrix Calculus" chapter</a></li>
+                                <li>HTF Ch. 3</li>
+                                <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
+                                <li><a href="https://arxiv.org/pdf/1108.0775v2.pdf">Bach et al on Optimization with Sparsity</a></li>
                     </ul>
                 </section>
                 <section class="assignment">
@@ -97,7 +95,7 @@
                     </div>
                 </section>
     
-            <p>Homework 1 deadline extended until Sunday 2/5</p>
+            <p>PreLecture Concept Check Questions will help clarify some math in Lecture 2</p>
         </div>
     </section>
 </section>
@@ -323,7 +321,11 @@
                         </th>
                         <td class="slides">
                             <h1 class="phone-only-block">Slides</h1>
-                                (None)
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf">Excess Risk Decomposition</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf">L1 and L2 regularization</a></li>
+                                </ul>
                         </td>
                         <td class="notes">
                             <h1 class="phone-only-block">Notes</h1>
@@ -331,11 +333,43 @@
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf">PreLecture Concept Check Questions</a></li>
     
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf">PreLecture Concept Check Solutions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf">Completing the Square</a></li>
                                 </ul>
                         </td>
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>HTF Ch. 3</li>
+    
+                                        <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Feb 1</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf">Grouping and Elastic Net</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf">Directional Derivatives and Optima</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
                                 (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li><a href="https://arxiv.org/pdf/1108.0775v2.pdf">Bach et al on Optimization with Sparsity</a></li>
+                                </ul>
                         </td>
                     </tr>
             </table>
