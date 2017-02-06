@@ -58,46 +58,42 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-2">Slides</a></h1>
+                    <h1><a href="#lecture-week-3">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf">Excess Risk Decomposition</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf">L1 and L2 regularization</a></li>
                                 <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf">Grouping and Elastic Net</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf">Directional Derivatives and Optima</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf">Loss functions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf">Convex optimization</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf">SVM (slides)</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-2">Notes</a></h1>
+                    <h1><a href="#lecture-week-3">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf">PreLecture Concept Check Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf">PreLecture Concept Check Solutions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf">Completing the Square</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check.pdf">Lecture Concept Check Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check_sol.pdf">Lecture Concept Check Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf">Extreme Abridgement of BV</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf">SVM (notes)</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-2">References</a></h1>
+                    <h1><a href="#lecture-week-3">References</a></h1>
     
                     <ul>
-                                <li>HTF Ch. 3</li>
-                                <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
-                                <li><a href="https://arxiv.org/pdf/1108.0775v2.pdf">Bach et al on Optimization with Sparsity</a></li>
+                                <li><a href="http://cs229.stanford.edu/notes/cs229-notes3.pdf">Andrew Ng's CS229 SVM Notes</a></li>
+                                <li>HTF 12.2.1 - 12.2.2</li>
                     </ul>
                 </section>
                 <section class="assignment">
-                    <h1><a href="#assignment-homework-1">Homework 1</a></h1>
-                    <p>GD, SGD, and Ridge Regression</p>
+                    <h1><a href="#assignment-homework-2">Homework 2</a></h1>
+                    <p>Lasso Regression</p>
     
-                    <p class="deadline"><strong>Due:</strong> February 5th, 10pm</p>
+                    <p class="deadline"><strong>Due:</strong> February 13th, 10pm</p>
                     <div class="files">
-                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf" class="pdf icon">hw1.pdf</a>
-                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw1.zip" class="zip icon">hw1.zip</a>
+                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf" class="pdf icon">hw2.pdf</a>
+                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip" class="zip icon">hw2.zip</a>
                     </div>
                 </section>
     
-            <p>PreLecture Concept Check Questions will help clarify some math in Lecture 2</p>
+            <p>Review the <a href="https://github.com/davidrosenberg/mlcourse/tree/gh-pages/ConceptChecks">Concept Check exercises</a> to make sure you understand lecture material.</p>
         </div>
     </section>
 </section>
@@ -362,8 +358,6 @@
                         <td class="slides">
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf">Grouping and Elastic Net</a></li>
-    
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf">Directional Derivatives and Optima</a></li>
                                 </ul>
                         </td>
@@ -376,6 +370,76 @@
                                 <ul>
                                         <li><a href="https://arxiv.org/pdf/1108.0775v2.pdf">Bach et al on Optimization with Sparsity</a></li>
                                 </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-3">
+            <h1>Week 3</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Feb 7</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf">Grouping and Elastic Net</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf">Loss functions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf">Convex optimization</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf">SVM (slides)</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf">Extreme Abridgement of BV</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf">SVM (notes)</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li><a href="http://cs229.stanford.edu/notes/cs229-notes3.pdf">Andrew Ng's CS229 SVM Notes</a></li>
+    
+                                        <li>HTF 12.2.1 - 12.2.2</li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Feb 8</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                (None)
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                (None)
                         </td>
                     </tr>
             </table>
@@ -408,6 +472,19 @@
                 <div class="files">
                         <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf" class="pdf icon">hw1.pdf</a>
                         <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw1.zip" class="zip icon">hw1.zip</a>
+                </div>
+            </div>
+        </section>
+        <section class="homework" id="assignment-homework-2">
+            <div class="module">
+                <div class="title">
+                    <h1>Homework 2</h1>
+                    <p>Lasso Regression</p>
+                </div>
+                <p class="deadline"><strong>Due:</strong> February 13th, 10pm</p>
+                <div class="files">
+                        <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf" class="pdf icon">hw2.pdf</a>
+                        <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip" class="zip icon">hw2.zip</a>
                 </div>
             </div>
         </section>
