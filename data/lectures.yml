@@ -46,12 +46,34 @@
     2017-02-01:
       Label: Lab
       Slides:
-        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf"}
         - {Directional Derivatives and Optima: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
       Notes:
        
       References:
         - {'Bach et al on Optimization with Sparsity': "https://arxiv.org/pdf/1108.0775v2.pdf"}
+
+-
+  Title: Week 3
+  Events:
+    2017-02-07:
+      Label: Lecture
+      Slides:
+        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf"}
+        - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
+        - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
+        - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
+      Notes:
+        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+        - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+      References:
+        - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
+        - "HTF 12.2.1 - 12.2.2"
+    2017-02-08:
+      Label: Lab
+      Slides:
+      Notes:
+      References:
+
 
 
 
