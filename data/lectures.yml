@@ -46,7 +46,7 @@
     2017-02-01:
       Label: Lab
       Slides:
-        - {Directional Derivatives and Optima: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
+        - {Directional Derivatives and Optima (Homework Hints): "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
       Notes:
        
       References:
@@ -58,13 +58,13 @@
     2017-02-07:
       Label: Lecture
       Slides:
-        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf"}
-        - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
-        - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
-        - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
+        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.elastic-net.pdf"} 
+        - {Loss Functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.loss-functions.pdf"}
+        - {Convex Optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3c.convex-optimization.pdf"}
+        - {Support Vector Machines: "https://davidrosenberg.github.io/mlcourse/Lectures/3d.SVM.pdf"}
       Notes:
         - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
-        - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+        - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
       References:
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
         - "HTF 12.2.1 - 12.2.2"
