@@ -63,8 +63,9 @@
         - {Convex Optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3c.convex-optimization.pdf"}
         - {Support Vector Machines: "https://davidrosenberg.github.io/mlcourse/Lectures/3d.SVM.pdf"}
       Notes:
-        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+        - {Pre-lecture warmup for SVM and Lagrangians: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
       References:
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
         - "HTF 12.2.1 - 12.2.2"
