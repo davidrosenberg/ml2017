@@ -72,6 +72,7 @@
     2017-02-08:
       Label: Lab
       Slides:
+        - {"Geometric Derivation of SVMs": "https://davidrosenberg.github.io/mlcourse/Labs/3-SVM-Slides.pdf"}
       Notes:
       References:
 
