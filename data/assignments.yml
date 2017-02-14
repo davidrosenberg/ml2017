@@ -13,3 +13,9 @@ Submit link: "https://gradescope.com"
   Due: 2017-02-13
   PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf"}
   ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
+-
+  Label: Homework 3
+  Description: SVM and Sentiment Analysis
+  Due: 2017-02-23
+  PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.pdf"}
+  ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}

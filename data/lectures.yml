@@ -66,6 +66,8 @@
         - {Pre-lecture warmup for SVM and Lagrangians: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
         - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+        - {Lasso and Elastic Net (ipynb): "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb"}
+
       References:
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
         - "HTF 12.2.1 - 12.2.2"
