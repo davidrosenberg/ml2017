@@ -90,8 +90,9 @@
     2017-02-15:
       Label: Lab
       Slides:
-        - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/4b.subgradient-descent.pdf"}
+        - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Slides.pdf"}
       Notes:
+        - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Notes_sol.pdf"}
       References:
         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
 
