@@ -84,6 +84,8 @@
         - {Pre-lecture warmup for SVM and Lagrangians: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
         - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lec-Check.pdf"}
+        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lec-Check_sol.pdf"}
       References:
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
         - "HTF 12.2.1 - 12.2.2"
@@ -93,6 +95,8 @@
         - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Slides.pdf"}
       Notes:
         - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Notes_sol.pdf"}
+        - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check.pdf"}
+        - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check_sol.pdf"}
       References:
         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
 
