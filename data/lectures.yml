@@ -99,7 +99,16 @@
         - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check_sol.pdf"}
       References:
         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-
-
-
-
+-
+  Title: Week 5
+  Events:
+    2017-02-21:
+      Label: Lecture
+      Slides:
+        - {SVMs and Complementary Slackness: "https://davidrosenberg.github.io/mlcourse/Lectures/5a.SVM-ComplementarySlackness.pdf"}
+        
+      Notes:
+        - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+      References:
+        - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
