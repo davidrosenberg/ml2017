@@ -106,6 +106,8 @@
       Label: Lecture
       Slides:
         - {SVMs and Complementary Slackness: "https://davidrosenberg.github.io/mlcourse/Lectures/5a.SVM-ComplementarySlackness.pdf"}
+        - {Intro to Kernel Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.kernel-methods-intro.pdf"}
+        - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/5c.features.pdf"}
         
       Notes:
         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
