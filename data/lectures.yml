@@ -116,3 +116,8 @@
         - {"A Survey of Kernels for Structured Data": "http://homepages.rpi.edu/~bennek/class/mmld/papers/p49-gartner.pdf"}
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
         
+    2017-02-15:
+      Label: Lab
+      Slides:
+        - {"Kernels": "https://davidrosenberg.github.io/mlcourse/Labs/5-Kernels-Slides.pdf"}
+
