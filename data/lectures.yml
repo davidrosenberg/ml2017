@@ -95,8 +95,8 @@
         - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Slides.pdf"}
       Notes:
         - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Notes_sol.pdf"}
-        - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check.pdf"}
-        - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check_sol.pdf"}
+        - {"Lab Concept Check Questions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check.pdf"}
+        - {"Lab Concept Check Solutions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lab-Check_sol.pdf"}
       References:
         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
 -
@@ -120,4 +120,7 @@
       Label: Lab
       Slides:
         - {"Kernels": "https://davidrosenberg.github.io/mlcourse/Labs/5-Kernels-Slides.pdf"}
-
+	
+      Notes:
+        - {Lab Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check.pdf"}
+        - {Lab Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check_sol.pdf"}
