@@ -107,7 +107,6 @@
       Slides:
         - {SVMs and Complementary Slackness: "https://davidrosenberg.github.io/mlcourse/Lectures/5a.SVM-ComplementarySlackness.pdf"}
         - {Intro to Kernel Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.kernel-methods-intro.pdf"}
-        - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/5c.features.pdf"}
         
       Notes:
         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
@@ -120,7 +119,21 @@
       Label: Lab
       Slides:
         - {"Kernels": "https://davidrosenberg.github.io/mlcourse/Labs/5-Kernels-Slides.pdf"}
-	
       Notes:
         - {Lab Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check.pdf"}
         - {Lab Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check_sol.pdf"}
+-
+  Title: Week 6
+  Events:
+    2017-02-28:
+      Label: Lecture
+      Slides:
+        - {Kernel Methods Wrapup: "https://davidrosenberg.github.io/mlcourse/Lectures/6a.kernels-wrapup.pdf"}
+        - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/6b.features.pdf"}
+        
+      Notes:
+      References:
+        - "SSBD Chapter 16"
+        
+    2017-03-01:
+      Label: One-Hour Test
