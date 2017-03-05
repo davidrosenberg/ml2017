@@ -137,3 +137,16 @@
         
     2017-03-01:
       Label: One-Hour Test
+-
+  Title: Week 7
+  Events:
+    2017-03-07:
+      Label: Lecture
+      Slides:
+        - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
+      Notes:
+      References:
+        - "SSBD Chapter 17"
+        
+    2017-03-08:
+      Label: Project Adviser Meetings
