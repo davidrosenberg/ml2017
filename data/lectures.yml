@@ -145,6 +145,8 @@
       Slides:
         - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
       Notes:
+        - {Lecture Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check.pdf"}
+        - {Lecture Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check_sol.pdf"}
       References:
         - "SSBD Chapter 17"
         - {In Defense of One-Vs-All Classification: "http://www.jmlr.org/papers/v5/rifkin04a.html"}
