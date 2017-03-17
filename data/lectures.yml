@@ -143,12 +143,13 @@
     2017-03-07:
       Label: Lecture
       Slides:
-        - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
+        - {Multiclass and Intro to Structured Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
       Notes:
         - {Lecture Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check.pdf"}
         - {Lecture Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check_sol.pdf"}
       References:
         - "SSBD Chapter 17"
         - {In Defense of One-Vs-All Classification: "http://www.jmlr.org/papers/v5/rifkin04a.html"}
+        - {Reducing Multiclass to Binary: "http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf"} 
     2017-03-08:
       Label: Project Adviser Meetings
