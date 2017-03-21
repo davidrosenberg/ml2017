@@ -153,3 +153,21 @@
         - {Reducing Multiclass to Binary: "http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf"} 
     2017-03-08:
       Label: Project Adviser Meetings
+-
+  Title: Week 8
+  Events:
+    2017-03-21:
+      Label: Lecture
+      Slides:
+        - {Classification and Regression Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/8a.trees.pdf"}
+      References:
+        - "HTF Ch. 3"
+        - "ISL Sec. 8.1"
+        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
+    2017-03-22:
+      Label: Lab
+      Slides:
+        - {'Bootstrap, Bagging, and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7a.bagging-random-forests.pdf"}
+      References:
+        - "HTF Ch. 8.7"
+        - "HTF Ch. 15"
