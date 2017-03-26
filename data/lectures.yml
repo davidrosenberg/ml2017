@@ -161,13 +161,24 @@
       Slides:
         - {Classification and Regression Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/8a.trees.pdf"}
       References:
-        - "HTF Ch. 3"
-        - "ISL Sec. 8.1"
-        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
+        - "JWHT 8.1"
+        - "HTF 9.2"
     2017-03-22:
       Label: Lab
       Slides:
-        - {'Bootstrap, Bagging, and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7a.bagging-random-forests.pdf"}
+        - {'Intro to the Bootstrap': "https://davidrosenberg.github.io/mlcourse/Lectures/8.Lab.bootstrap.pdf"}
       References:
-        - "HTF Ch. 8.7"
-        - "HTF Ch. 15"
+        - "JWHT 5.2"
+        - "HTF 7.11"
+-
+  Title: Week 9
+  Events:
+    2017-03-21:
+      Label: Lecture
+      Slides:
+        - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/9a.bagging-random-forests.pdf"}
+        - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Lectures/9b.adaboost.pdf"}
+      References:
+        - "JWHT 8.2"
+        - "HTF 8.7, 15, 10"
+        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
