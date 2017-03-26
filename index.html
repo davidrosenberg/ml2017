@@ -58,27 +58,25 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-8">Slides</a></h1>
+                    <h1><a href="#lecture-week-9">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/8a.trees.pdf">Classification and Regression Trees</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7a.bagging-random-forests.pdf">Bootstrap, Bagging, and Random Forests</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/9a.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/9b.adaboost.pdf">Adaboost</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-8">Notes</a></h1>
+                    <h1><a href="#lecture-week-9">Notes</a></h1>
     
                     <ul>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-8">References</a></h1>
+                    <h1><a href="#lecture-week-9">References</a></h1>
     
                     <ul>
-                                <li>HTF Ch. 3</li>
-                                <li>ISL Sec. 8.1</li>
+                                <li>JWHT 8.2</li>
+                                <li>HTF 8.7, 15, 10</li>
                                 <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
-                                <li>HTF Ch. 8.7</li>
-                                <li>HTF Ch. 15</li>
                     </ul>
                 </section>
                 <section class="assignment">
@@ -92,7 +90,7 @@
                     </div>
                 </section>
     
-            <p>Project proposals due to advisers on Thursday March 23rd.</p>
+            <p>Ensemble methods this week.</p>
         </div>
     </section>
 </section>
@@ -217,6 +215,8 @@
     <ul class="abbreviations">
         <li> (HTF) refers to Hastie, Tibshirani, and Friedman's book <a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/"><cite>The Elements of Statistical Learning</cite></a>
         <li> (SSBD) refers to Shalev-Shwartz and Ben-David's book <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html/"><cite>Understanding Machine Learning: From Theory to Algorithms</cite></a>
+        <li> (JWHT) refers to James, Witten, Hastie, and Tibshirani's book <a href="http://www-bcf.usc.edu/~gareth/ISL"><cite>An Introduction to Statistical Learning</cite></a>
+
     </ul>
 
         <section class="module" id="lecture-week-1">
@@ -753,11 +753,9 @@
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
                                 <ul>
-                                        <li>HTF Ch. 3</li>
+                                        <li>JWHT 8.1</li>
     
-                                        <li>ISL Sec. 8.1</li>
-    
-                                        <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
+                                        <li>HTF 9.2</li>
                                 </ul>
                         </td>
                     </tr>
@@ -771,7 +769,7 @@
                         <td class="slides">
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7a.bagging-random-forests.pdf">Bootstrap, Bagging, and Random Forests</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/8.Lab.bootstrap.pdf">Intro to the Bootstrap</a></li>
                                 </ul>
                         </td>
                         <td class="notes">
@@ -781,9 +779,53 @@
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
                                 <ul>
-                                        <li>HTF Ch. 8.7</li>
+                                        <li>JWHT 5.2</li>
     
-                                        <li>HTF Ch. 15</li>
+                                        <li>HTF 7.11</li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-9">
+            <h1>Week 9</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Mar 21</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/9a.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/9b.adaboost.pdf">Adaboost</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>JWHT 8.2</li>
+    
+                                        <li>HTF 8.7, 15, 10</li>
+    
+                                        <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
                                 </ul>
                         </td>
                     </tr>
@@ -911,7 +953,7 @@
             <li><a href="https://github.com/ismailmustafa/predictingRefugeeAsylum-avengers">Using Predictive Models to Determine Judge Bias in Asylum Refugee Court Cases</a></li>
             <li><a href="”https://github.com/cryanzpj/1003/tree/master/project">E-Commerce Recommender Modeling: A Case Study of Ponpare Coupon Purchase Prediction.</a></li>
             <li><a href="https://github.com/prithvikg/mlcsProject/blob/master/Report/TEAM-DS-Final_report.pdf">Predicting Job Markets in India using heavy tailed regression</a></li>
-
+            <li><a href="https://github.com/yoyo1989/ml2015-course-project">Resampling the Spectral Time Series of a SN in the Time Dimension</a></li>
         </ul>
     </section>
 
