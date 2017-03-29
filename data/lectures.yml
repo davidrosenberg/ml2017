@@ -143,7 +143,7 @@
     2017-03-07:
       Label: Lecture
       Slides:
-        - {Multiclass and Intro to Structured Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
+        - {Multiclass and Intro to Structured Prediction: "https://davidrosenberg.github.io/mlcourse/Lectures/7a.multiclass.pdf"}
       Notes:
         - {Lecture Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check.pdf"}
         - {Lecture Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check_sol.pdf"}
