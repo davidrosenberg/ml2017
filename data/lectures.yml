@@ -188,3 +188,4 @@
         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Slides.pdf"}
       Notes:
         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Notes.pdf"}
+        - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Labs/gbm.py"}
