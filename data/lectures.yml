@@ -182,3 +182,9 @@
         - "JWHT 8.2"
         - "HTF 8.7, 15, 10"
         - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
+    2017-03-22:
+      Label: Lab
+      Slides:
+        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Slides.pdf"}
+      Notes:
+        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Notes.pdf"}
