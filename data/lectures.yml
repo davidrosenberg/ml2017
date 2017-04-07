@@ -197,9 +197,16 @@
       Slides:
         - {'Gradient Boosting (continued)': "https://davidrosenberg.github.io/mlcourse/Lectures/10a.gradient-boosting-continued.pdf"}
         - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.citysense.pdf"}
-        - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/10c.conditional-probability-models.pdf"}
+        - {Conditional Probability Models (1): "https://davidrosenberg.github.io/mlcourse/Lectures/10c.conditional-probability-models.pdf"}
       References:
         - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
         - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
         - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
         - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
+    2017-04-05:
+      Label: Lab
+      Slides:
+        - {"Conditional Probability Models (2)": "https://davidrosenberg.github.io/mlcourse/Lectures/10.Lab.conditional-probability-models.pdf"}
+      Notes:
+        - {"Exponential Distribution Example": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
+
