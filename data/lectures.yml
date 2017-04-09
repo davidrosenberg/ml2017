@@ -173,7 +173,7 @@
 -
   Title: Week 9
   Events:
-    2017-03-21:
+    2017-03-28:
       Label: Lecture
       Slides:
         - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/9a.bagging-random-forests.pdf"}
@@ -185,10 +185,31 @@
         - "JWHT 8.2"
         - "HTF 8.7, 15, 10"
         - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
-    2017-03-22:
+    2017-03-29:
       Label: Lab
       Slides:
         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Slides.pdf"}
       Notes:
         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Labs/9-GBM-Notes.pdf"}
         - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Labs/gbm.py"}
+-
+  Title: Week 10
+  Events:
+    2017-04-04:
+      Label: Lecture
+      Slides:
+        - {'Gradient Boosting (continued)': "https://davidrosenberg.github.io/mlcourse/Lectures/10a.gradient-boosting-continued.pdf"}
+        - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.citysense.pdf"}
+        - {Conditional Probability Models (1): "https://davidrosenberg.github.io/mlcourse/Lectures/10c.conditional-probability-models.pdf"}
+      References:
+        - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+        - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+        - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
+        - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
+    2017-04-05:
+      Label: Lab
+      Slides:
+        - {"Conditional Probability Models (2)": "https://davidrosenberg.github.io/mlcourse/Lectures/10.Lab.conditional-probability-models.pdf"}
+      Notes:
+        - {"Exponential Distribution Example": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
+
