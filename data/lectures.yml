@@ -178,6 +178,9 @@
       Slides:
         - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/9a.bagging-random-forests.pdf"}
         - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Lectures/9b.adaboost.pdf"}
+      Notes:
+        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check.pdf"}
+        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check_sol.pdf"}
       References:
         - "JWHT 8.2"
         - "HTF 8.7, 15, 10"
