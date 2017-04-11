@@ -212,4 +212,17 @@
         - {"Conditional Probability Models (2)": "https://davidrosenberg.github.io/mlcourse/Lectures/10.Lab.conditional-probability-models.pdf"}
       Notes:
         - {"Exponential Distribution Example": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
+-
+  Title: Week 11
+  Events:
+    2017-04-11:
+      Label: Lecture
+      Slides:
+        - {'Bayesian Methods': "https://davidrosenberg.github.io/mlcourse/Lectures/11a.bayesian-methods.pdf"}
+        - {'Bayesian Linear Regression': "https://davidrosenberg.github.io/mlcourse/Lectures/11b.bayesian-regression.pdf"}
+      Notes:
+        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
+        - {"Multivariate Gaussians": "https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf"}
+        - {"Bayesian Linear Regression": "https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf"}
+
 
