@@ -31,3 +31,9 @@ Submit link: "https://gradescope.com"
   Due: 2017-04-11
   PDF: {hw5.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw5.pdf"}
   ZIP: {hw5.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw5.zip"}
+-
+  Label: Homework 6
+  Description: Trees and Boosting
+  Due: 2017-04-24
+  PDF: {hw6.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw6.pdf"}
+  ZIP: {hw6.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw6.zip"}
