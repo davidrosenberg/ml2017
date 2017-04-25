@@ -235,3 +235,10 @@
       Label: Lab
       Slides:
         - {'Test Review': "https://davidrosenberg.github.io/mlcourse/Lectures/11.Lab.test-review.pdf"}
+-
+  Title: Week 12
+  Events:
+    2017-04-18:
+      Label: Two-Hour Test
+    2017-04-19:
+      Label: Project Adviser Meetings
