@@ -242,3 +242,20 @@
       Label: Two-Hour Test
     2017-04-19:
       Label: Project Adviser Meetings
+-
+  Title: Week 13
+  Events:
+    2017-04-25:
+      Label: Lecture
+      Slides:
+        - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Lectures/13-PCA-Slides.pdf"}
+        - {'k-Means Clustering': "https://davidrosenberg.github.io/mlcourse/Lectures/13.kmeans.pdf"}
+      Notes:
+        - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Lectures/13-PCA-Notes_sol.pdf"}
+      References:
+        - "Jolliffe, Principal Component Analysis"
+        - "HTF, 3.5.1"
+        - "HTF, 13.2.1"
+    2017-04-12:
+      Label: Lab
+      Slides:
