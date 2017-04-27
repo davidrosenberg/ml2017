@@ -256,6 +256,7 @@
         - "Jolliffe, Principal Component Analysis"
         - "HTF, 3.5.1"
         - "HTF, 13.2.1"
-    2017-04-12:
+    2017-04-26:
       Label: Lab
       Slides:
+        - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Lectures/13.lab.mixture-models.pdf"}
