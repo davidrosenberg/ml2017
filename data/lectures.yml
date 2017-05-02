@@ -260,3 +260,15 @@
       Label: Lab
       Slides:
         - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Lectures/13.lab.mixture-models.pdf"}
+-
+  Title: Week 14
+  Events:
+    2017-05-02:
+      Label: Lecture
+      Slides:
+        - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse/Lectures/14a.EM-algorithm.pdf"}
+        - {'Introduction to Neural Networks': "https://davidrosenberg.github.io/mlcourse/Lectures/14b.neural-networks.pdf"}
+      References:
+        - "Bishop 9.2,9.3"
+    2017-05-03:
+      Label: Project Adviser Meetings
