@@ -65,23 +65,27 @@ function parseDocuments() {
         }
     }
 
-    const thisWeek = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/this-week.yml')));
+    let thisWeek = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, '../data/this-week.yml')));
 
-    // Pull data from lectures and assignments into thisWeek:
-    const thisWeekLecture = lectures.find(l => l.Title === thisWeek['Lecture/Lab']);
-    const thisWeekAssignment = assignments.find(a => a.Label === thisWeek.Assignment);
+    if (thisWeek === null) {
+        thisWeek = { lecture: null };
+    } else {
+        // Pull data from lectures and assignments into thisWeek:
+        const thisWeekLecture = lectures.find(l => l.Title === thisWeek['Lecture/Lab']);
+        const thisWeekAssignment = assignments.find(a => a.Label === thisWeek.Assignment);
 
-    if (thisWeekLecture === undefined) {
-        throw new Error(`Could not find entry in lectures.yml with Title "${thisWeek['Lecture/Lab']}" specified in ` +
-            `this-week.yaml`);
+        if (thisWeekLecture === undefined) {
+            throw new Error(`Could not find entry in lectures.yml with Title "${thisWeek['Lecture/Lab']}" specified in ` +
+                `this-week.yaml`);
+        }
+        if (thisWeekAssignment === undefined) {
+            throw new Error(`Could not find entry in assignments.yml with Label "${thisWeek['Assignment']}" specified in ` +
+                `this-week.yaml`);
+        }
+
+        thisWeek.lecture = thisWeekLecture;
+        thisWeek.assignment = thisWeekAssignment;
     }
-    if (thisWeekAssignment === undefined) {
-        throw new Error(`Could not find entry in assignments.yml with Label "${thisWeek['Assignment']}" specified in ` +
-            `this-week.yaml`);
-    }
-
-    thisWeek.lecture = thisWeekLecture;
-    thisWeek.assignment = thisWeekAssignment;
 
     return { lectures, thisWeek, assignmentsFrontmatter, assignments };
 }
