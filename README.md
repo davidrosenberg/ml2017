@@ -12,6 +12,12 @@ Run `npm run watch` to start a watcher that will compile things in place. You ca
 
 Run `npm run build` to do a local build into the `out/` directory. You can then preview the site at `out/index.html`. This should usually be the same as just `index.html`, but it is good to check before committing, since the build process is slightly more complicated than the in-place watch process.
 
+### Deployment
+
+Deployment to GitHub pages will happen via Travis CI if you have appropriately added a deploy key [per the guide](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd#get-encrypted-credentials).
+
+If Travis is down, you can use `./deploy.sh --local` to deploy to GitHub pages manually.
+
 ### Technologies used
 
 [Stylus](https://learnboost.github.io/stylus/) is used for styling.
